@@ -4,6 +4,23 @@
     outline: 0;
 }
 
+body {
+    background-color: #000;
+}
+
+.clock-col {
+    background-color: #000;
+    color: #fff;
+    border: 10px solid #fff;
+    box-shadow: 0px 0px 20px 5px #fff;
+}
+
+.clock-heading {
+    color: #0000ff;
+}
+
 .clock {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    text-shadow: 5px 5px 10px #fff;
 }
