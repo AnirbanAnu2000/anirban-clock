@@ -13,7 +13,7 @@ body {
     color: #fff;
     border: 10px solid #fff;
     box-shadow: 0px 0px 20px 5px #fff;
-    border-radius: 48%;
+    border-radius: 50%;
 }
 
 .clock-heading {
@@ -22,7 +22,9 @@ body {
 }
 
 .clock {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    /* font-family: 'Mina', sans-serif; */
+    font-family: monospace !important;
     color: #fff;
     text-shadow: 5px 5px 10px #0000ff;
     font-family: 'Satisfy', cursive;
