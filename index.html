@@ -69,13 +69,16 @@
             const element = (
                 <div className="container my-5">
                     <div class="row justify-content-center">
-                        <div class="col-lg-4 col-md-6 col-sm-8 col-9 text-center py-4 clock-col">
-                            <h4 className="fw-bold clock-heading"><i class="fas fa-leaf"></i> <i class="fab fa-canadian-maple-leaf"></i> <i class="fab fa-pagelines"></i> <i class="fab fa-squarespace"></i> <i class="fas fa-share-square"></i></h4>
-                            <h3 className="fw-bold clock mt-1"><i class="fas fa-clock"></i> {new Date().toLocaleTimeString()}</h3>
+                        <div class="col-lg-4 col-md-6 col-sm-8 col-10 text-center py-4 clock-col">
+                            <h3 className="fw-bold clock-heading"><i class="fas fa-leaf"></i> <i class="fab fa-canadian-maple-leaf"></i> <i class="fab fa-pagelines"></i> <i class="fab fa-squarespace"></i> <i class="fas fa-share-square"></i></h3>
+                            <h2 className="fw-bold clock mt-1"><i class="fas fa-clock"></i> {new Date().toLocaleTimeString()}</h2>
                             <h5 className="fw-bold clock mt-1"><i class="fas fa-calendar-alt"></i> {today.toDateString()}</h5>
+
+                            <a href="/calandar.html" class="btn btn-primary fw-bold mt-2">Go To Calandar</a>
                         </div>
                     </div>
                 </div>
+                
             );
             ReactDOM.render(element, document.getElementById('root'));
             }
