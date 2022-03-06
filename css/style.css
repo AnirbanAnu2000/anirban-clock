@@ -12,11 +12,11 @@ body {
 .clock-col {
     background-color: #000;
     color: #fff;
-    border: 20px double #fff;
+    border: 20px double #1f663d;
     box-shadow: 0px 0px 20px 5px #fff;
     border-radius: 15px;
-    border-inline-end-color: #f3007a;
-    border-inline-start-color: #0000ff;
+    border-inline-end-color: #912a5d;
+    border-inline-start-color: #282883;
 }
 
 .clock-heading {
